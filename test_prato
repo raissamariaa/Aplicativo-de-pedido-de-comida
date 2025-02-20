@@ -1,0 +1,10 @@
+import Prato
+import Restaurante
+
+
+prato1 = Prato(1, "Pizza Margherita", "Pizza com molho de tomate e queijo", 30.0, "imagem1.jpg")
+prato2 = Prato(2, "Pizza Calabresa", "Pizza com calabresa e cebola", 35.0, "imagem2.jpg")
+
+# Cadastrando pratos no restaurante
+Restaurante.gerenciar_pratos(prato1)
+Restaurante.gerenciar_pratos(prato2)

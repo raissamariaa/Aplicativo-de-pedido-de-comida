@@ -1,0 +1,12 @@
+import Restaurante
+import Usuario
+
+
+cliente = Usuario(1, "João", "joao@example.com", "senha123", "cliente")
+restaurante = Restaurante(1, "Pizzaria do João", "Rua A, 123", "12.345.678/0001-90", "10:00 - 22:00")
+entregador = Usuario(2, "Carlos", "carlos@example.com", "senha456", "entregador")
+
+# Cadastrando usuários
+cliente.cadastrar()
+restaurante.cadastrar_perfil()
+entregador.cadastrar()
