@@ -1,0 +1,24 @@
+
+import Pagamento
+import Pedido
+import Restaurante
+from avaliacao import Avaliacao
+
+
+pagamento = Pagamento(1, Pedido, "cartão de crédito")
+
+
+pagamento.processar_pagamento()
+pagamento.verificar_status()
+
+
+avaliacao = Avaliacao(1, cliente, Restaurante,  5, "A pizza estava deliciosa!")
+avaliacao.deixar_avaliacao()
+
+
+Restaurante.aceitar_pedido()
+Restaurante.recusar_pedido()
+
+
+cliente.login()
+cliente.logout()
