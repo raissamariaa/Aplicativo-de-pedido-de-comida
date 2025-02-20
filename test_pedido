@@ -1,0 +1,23 @@
+import Pedido
+import Restaurante
+
+
+pedido = Pedido(1, cliente, Restaurante)
+
+
+pedido.adicionar_item(prato1)
+pedido.adicionar_item(prato2)
+
+
+print(f"Total do pedido: R${pedido.total:.2f}")
+
+
+pedido.remover_item(prato1)
+print(f"Total do pedido após remoção: R${pedido.total:.2f}")
+
+
+pedido.aplicar_cupom_desconto(5.0)  
+print(f"Total do pedido após desconto: R${pedido.total:.2f}")
+
+
+pedido.atualizar_status("enviado")
