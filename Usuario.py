@@ -1,6 +1,5 @@
 from typing import List
 
-# usuario.py
 class Usuario:
     usuarios_registrados = []
 
